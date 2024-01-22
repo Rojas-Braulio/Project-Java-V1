@@ -6,7 +6,7 @@ public static void main(String[] args) {
         double notas = 0, notas5 = 0, notas4 = 0, notas1 = 0, contador5 = 0, contador4 = 0, promedioNotas4 = 0, promedioNotas5 = 0, promedioTotal = 0;
 
         for (int i = 0; i < 20; i++){
-            System.out.println("Ingrese la nota " + (i + 1) + " del 1 al 7: ");
+            System.out.println("Ingrese nota " + (i + 1) + " del 1 al 7: ");
             notas = scanner.nextInt();
             if (notas < 1.0 || notas > 7.0){
                 System.out.println("ERROR: DEBE SER DEL 1 AL 7");
